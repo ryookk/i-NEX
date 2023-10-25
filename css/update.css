@@ -1,0 +1,247 @@
+	
+    :root{
+		--bg-primary: #e50024;	}
+
+body{
+	font-ramily: 'Raleway', sans-serif !important;
+}
+
+header.masthead{
+	background: linear-gradient(to bottom, rgba(100, 100, 100, 0.2) 0%, rgba(30.2, 67.84, 98.82, 0.2) 100%), url("../img/hm-banner.png?new");
+	background-size: cover;
+}
+
+.bg-primary{
+	/* background-image: url(/img/bg-long.png);
+    background-size: cover; */
+    background-color: #ffffff;
+
+}
+
+hr.divider{
+	border-color: #e50024;
+}
+.h-100{
+	height: 80% !important;
+}
+
+.ff-raleway{
+	font-family: 'Raleway', sans-serif;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+	color: #000000;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover{
+	color: #e50024 !important;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active{
+	color: #e50024 !important;
+}
+.btn-primary{
+	background-color: #e50024;
+}
+.btn-primary:hover, .btn-primary:focus	{
+	background-color: #940118;
+}
+.about p{
+  letter-spacing: .1px;
+  line-height: 2rem;
+  color: #000000;
+}
+.about .sub-heading{
+    font-size: 1rem;
+}
+.page-section{
+	padding-bottom: 0;
+}
+.img-fluid{
+	max-width: 90%;
+	/* //border: 1px solid #3D7188;
+	margin: 12px 10px; */
+}
+
+.divide{
+    width: 100%;
+    height: 5px;
+}
+.lines{
+    width: 200px;
+    height: 5px;
+}
+
+.line{
+    width: 300px;
+    height: 5px;
+}
+
+#products{
+	/* background-image: url(/img/bg-long.png);
+    background-size: cover; */
+    background-color: #F8F8F8;
+}
+
+.portfolio-box{
+	background: #ffffff;
+	border: 1px solid #efefef;
+	margin: 5px;
+}
+
+.portfolio-box:hover{
+	text-decoration: none;
+}
+
+.caption{
+	color: #000;
+	min-height: 80px;
+	padding: 20px 10px;
+
+}
+
+.caption .project-category{
+	font-size: .9rem;
+	margin-top: 1rem;
+}
+
+.text-muted{
+	color: #e50024 !important;
+}
+
+#sub-heading{
+    color: #fff;
+    letter-spacing: .02rem;
+}
+
+#branch a{
+    color: #000;
+}
+
+#branch a:hover{
+    text-decoration: none;
+    color: #e50024;
+}
+
+#mainNav{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+}
+
+#events p{
+    font-size: .8rem;
+}
+
+
+
+.date{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.product-list{
+    background: #F8F8F8;
+    padding: 12rem 0;
+}
+
+
+.product-list .product-name{
+    font-size: .8rem;
+}
+
+.product-thumb{
+    background: #fff;
+}
+
+.product-list .product-laboratory .product-thumb{
+    border-bottom: 3px solid #e50024;
+}
+
+.product-list .product-medical .product-thumb{
+    border-bottom: 3px solid #f9d71c;
+}
+
+
+
+.product-list .img-fluid {
+    max-width: 80%;
+}
+
+
+
+.product-laboratory .caption{
+    /* //background: #e50024;
+    //color: #fff; */
+}
+
+.dropdown-menu{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #e50024;
+}
+
+hr.hr-medical{
+    border-color: #f9d71c;
+}
+
+.logo-img{
+    width: 200px;
+}
+
+.sub-text{
+    color: #000;
+    font-size: .55rem;
+    font-weight: 100;
+    letter-spacing: 0;
+}
+
+.job-hiring h2{
+    font-weight: 800;
+}
+
+.job-hiring p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.job-hiring{
+    background: #f9d71c;
+}
+
+.job-hiring .apply-contact span{
+    font-size: 2rem;
+}
+
+.job-hiring span{
+    font-family: 'Caveat', cursive;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        margin-left: 15px;
+    }
+    .dropdown-item{
+        font-size: .9rem;
+    }
+
+}
+
+@media (min-width: 768px){
+    .logo-img{
+        width: 400px;
+        height: auto;
+    }
+    .sub-text{
+        color: #000;
+        font-size: .8rem;
+        font-weight: 100;
+        letter-spacing: .03rem;
+    }
+}

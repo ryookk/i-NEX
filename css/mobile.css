@@ -1,0 +1,29 @@
+@media (min-width: 992px){
+	/* #mainNav{
+		//background-color: rgb(255, 255, 255, 0.8);
+        background-color: #fff;
+	} */
+	#mainNav .navbar-nav .nav-item:last-child .nav-link{
+		padding-right: 0 1rem;
+	}
+	/* header.masthead{
+		min-height: 140vh;
+	} */
+	header.masthead h1{
+		font-size: 5rem;
+	}
+	.h-100{
+		width: 75%;
+    float: right;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	header.masthead{
+	background-position-x: right;
+	}
+	.caption .project-name{
+		font-size: .8rem;
+	}
+
+}

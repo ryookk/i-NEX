@@ -142,7 +142,7 @@ hr.divider{
 
 .product-list{
     background: #F8F8F8;
-    padding: 12rem 0;
+    padding: 8rem 0;
 }
 
 
@@ -165,7 +165,7 @@ hr.divider{
 
 
 .product-list .img-fluid {
-    max-width: 80%;
+    max-width: 100%;
 }
 
 

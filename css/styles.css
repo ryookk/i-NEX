@@ -6156,9 +6156,9 @@ button.bg-light:focus {
   background-color: #dae0e5 !important;
 }
 
-.bg-dark {
+/* .bg-dark {
   background-color: #343a40 !important;
-}
+} */
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
@@ -7756,7 +7756,7 @@ button.bg-dark:focus {
 
 .pt-5,
 .py-5 {
-  padding-top: 3rem !important;
+  padding-top: 0rem !important;
 }
 
 .pr-5,

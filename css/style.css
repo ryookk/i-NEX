@@ -34,9 +34,7 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
-  /* * {
-    outline: solid black 1px;
-  } */
+  * { outline: solid black 1px; }
   
 /* *::before,
 *::after {
@@ -471,7 +469,7 @@ pre {
       max-width: 960px; } }
   @media (min-width: 1200px) {
     .container {
-      max-width: 1140px; } }
+      max-width: 100%; } }
 
 .container-fluid {
   width: 100%;
@@ -8147,7 +8145,8 @@ body {
   line-height: 1.8;
   font-weight: normal;
   background: #fafafa;
-  color: gray; }
+  /* color: gray; */
+ }
 
 a {
   -webkit-transition: .3s all ease;
